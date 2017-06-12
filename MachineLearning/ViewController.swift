@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     let imagePicker = UIImagePickerController()
@@ -37,7 +36,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             } else {
                 textLabel.isHidden = true
             }
-            
         }
         dismiss(animated: true, completion: nil)
     }
